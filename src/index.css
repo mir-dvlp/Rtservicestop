@@ -101,12 +101,6 @@
     padding: 0;
   }
 
-  // это мой кусок кода
-  #root {
-    height: 100dvh;
-  }
-  // это мой кусок выше
-
   ::file-selector-button {
     box-sizing: border-box;
     border: 0 solid;
