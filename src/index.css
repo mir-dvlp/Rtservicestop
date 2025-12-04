@@ -93,6 +93,12 @@
   }
 }
 
+// это мой кусок кода
+#root {
+  height: 100dvh;
+}
+// это мой кусок выше
+
 @layer base {
   *, :after, :before, ::backdrop {
     box-sizing: border-box;
