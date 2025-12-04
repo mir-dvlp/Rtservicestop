@@ -93,12 +93,6 @@
   }
 }
 
-// это мой кусок кода
-#root {
-  height: 100dvh;
-}
-// это мой кусок выше
-
 @layer base {
   *, :after, :before, ::backdrop {
     box-sizing: border-box;
@@ -106,6 +100,12 @@
     margin: 0;
     padding: 0;
   }
+
+  // это мой кусок кода
+  #root {
+    height: 100dvh;
+  }
+  // это мой кусок выше
 
   ::file-selector-button {
     box-sizing: border-box;
